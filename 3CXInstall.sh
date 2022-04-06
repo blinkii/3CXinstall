@@ -23,6 +23,6 @@ apt update
 apt install -y net-tools dphys-swapfile
 apt install -y 3cxpbx
 
-echo 'sshd: 37.71.220.131' >> /etc/hosts.allow
+echo 'sshd: X.X.X.X' >> /etc/hosts.allow
 echo 'sshd: ALL' >> /etc/hosts.deny
 /etc/init.d/ssh restart
